@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+
+<body>
+
+    <form action="proceso.php" method="post">
+
+        <fieldset>
+
+            <legend><strong><b>DATOS PERSONALES</b></strong></legend>
+
+                <p>Nombre: <input type="text" name="nombre" size="45"> </p>
+                <p>Apellido: <input type="text" name="apellido" size="45"> </p>
+                <p>Edad: <input type="number" name="edad" size="45"> </p>
+                <p>
+                    <p>Género:</p>
+                        <input type="radio" name="sexo" value="h">Hombre
+                        <input type="radio" name="sexo" value="m">Mujer
+                </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><strong><b>CONTACTO</b></strong></legend>
+
+                <p>Correo Electrónico: <input type="text" name="correoelectronico" size="45"> </p>
+                <p>Código Postal: <input type="number" name="codigopostal" size="45"> </p>
+                <p>Dirección: <input type="text" name="dirección" size="45"> </p>
+                <p>Ciudad:</p>
+
+                    <select name="ciudades" size="1">
+
+                        <option value="1">Jaén</option>
+                        <option value="2">Sevilla</option>
+                        <option value="3">Málaga</option>
+                        <option value="4">Granada</option>
+                        <option value="5">Córdoba</option>
+                        <option value="6">Almería</option>
+                        <option value="7">Huelva</option>
+                        <option value="8">Cádiz</option>
+
+                    </select>
+                    
+                <p>Contraseña: <input type="password" name="contraseña" size="20"></p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><strong><b>DATOS DE INTERÉS</b></strong></legend>
+
+                <p>Estado Civil:
+                    <input type="radio" name="p1">Si
+                    <input type="radio" name="p1">No
+                </p>
+
+                <p>Hobbies:
+                    <input type="checkbox" name="deporte">Deporte
+                    <input type="checkbox" name="cine">Cine
+                    <input type="checkbox" name="familia">Familia
+                    <input type="checkbox" name="lectura">Lectura
+                    <input type="checkbox" name="cocina">Cocina
+                </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><strong><b>COMENTARIOS ADICIONALES</b></strong></legend>
+
+                <textarea name="comentarios" id="comentarios" placeholder="Escriba aqui cualquier comentario adicional..." rows="5" cols="50"></textarea>
+        </fieldset>
+
+        <form action="proceso.php" method="POST">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+        </form>
+
+    </form>
+    
+</body>
+</html>

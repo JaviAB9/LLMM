@@ -1,0 +1,28 @@
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+.lenguajes, .sistemas, .programacion, .entornos, .bases-datos, .digitalizacion, .sostenibilidad, .empleabilidad {
+    color: rgb(0, 0, 0);
+    
+}
+
+.lenguajes { background-color: #e6b970; }
+.sistemas { background-color: #692b81; }
+.programacion { background-color: #1c6393; }
+.entornos { background-color: #cd1c89; }
+.bases-datos { background-color: #20ae5b; }
+.digitalizacion { background-color: #e74c3c; }
+.sostenibilidad { background-color: #afc10d; }
+.empleabilidad { background-color: #34495e; }
+
+tfoot td {
+    background-color: #000000;
+}
